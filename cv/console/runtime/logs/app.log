@@ -1,0 +1,64 @@
+2018-05-29 11:41:35 [-][-][-][error][yii\console\Exception] yii\console\Exception: You should specify cache components names in /Users/macpro/projects/PHP/cv/cv/vendor/yiisoft/yii2/console/controllers/CacheController.php:78
+Stack trace:
+#0 [internal function]: yii\console\controllers\CacheController->actionFlush()
+#1 /Users/macpro/projects/PHP/cv/cv/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/macpro/projects/PHP/cv/cv/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/macpro/projects/PHP/cv/cv/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('flush', Array)
+#4 /Users/macpro/projects/PHP/cv/cv/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('flush', Array)
+#5 /Users/macpro/projects/PHP/cv/cv/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('cache/flush', Array)
+#6 /Users/macpro/projects/PHP/cv/cv/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('cache/flush', Array)
+#7 /Users/macpro/projects/PHP/cv/cv/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /Users/macpro/projects/PHP/cv/cv/yii(23): yii\base\Application->run()
+#9 {main}
+2018-05-29 11:41:35 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TMPDIR' => '/var/folders/pn/48y1_s1j67b6s9q5622_qlsh0000gn/T/'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'SHELL' => '/bin/zsh'
+    'HOME' => '/Users/macpro'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.4N80pVZVKx/Render'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.nyGNdxiujK/Listeners'
+    'PATH' => '/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin'
+    'LOGNAME' => 'macpro'
+    'XPC_SERVICE_NAME' => '0'
+    'USER' => 'macpro'
+    'XPC_FLAGS' => '0x0'
+    'VSCODE_NODE_CACHED_DATA_DIR_28193' => '/Users/macpro/Library/Application Support/Code/CachedData/9a199d77c82fcb82f39c68bb33c614af01c111ba'
+    'VSCODE_NLS_CONFIG' => '{\"locale\":\"ru\",\"availableLanguages\":{\"*\":\"ru\"}}'
+    'VSCODE_IPC_HOOK' => '/Users/macpro/Library/Application Support/Code/1.21.0-main.sock'
+    'VSCODE_PID' => '28193'
+    'LC_CTYPE' => 'ru_RU.UTF-8'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'OLDPWD' => '/Users/macpro/projects/PHP'
+    'PAGER' => 'less'
+    'PWD' => '/Users/macpro/projects/PHP/cv/cv'
+    'SHLVL' => '1'
+    'ZSH' => '/Users/macpro/.oh-my-zsh'
+    'ZSH_TMUX_TERM' => 'screen-256color'
+    '_ZSH_TMUX_FIXED_CONFIG' => '/Users/macpro/.oh-my-zsh/plugins/tmux/tmux.only.conf'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.21.0'
+    'LANG' => 'ru_RU.UTF-8'
+    'TERM' => 'xterm-256color'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1527594095.5603
+    'REQUEST_TIME' => 1527594095
+    'argv' => [
+        0 => 'yii'
+        1 => 'cache/flush'
+    ]
+    'argc' => 2
+]

@@ -150,7 +150,7 @@ class SiteController extends Controller
      */
     public function actionTheater()
     {
-        return $this->render('about');
+        return $this->render('theater');
     }
 
     /**

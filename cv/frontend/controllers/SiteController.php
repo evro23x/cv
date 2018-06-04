@@ -2,6 +2,7 @@
 namespace frontend\controllers;
 
 use Yii;
+use yii\db\Command;
 use yii\base\InvalidParamException;
 use yii\web\BadRequestHttpException;
 use yii\web\Controller;
@@ -150,7 +151,11 @@ class SiteController extends Controller
      */
     public function actionTheater()
     {
-        return $this->render('theater');
+        $posts = Yii::$app->db_pg->createCommand('SELECT * FROM movies')->queryAll();
+        return $this->render('theater', [
+            'posts' => $posts,
+        ]);
+
     }
 
     /**

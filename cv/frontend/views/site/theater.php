@@ -6,6 +6,7 @@ use yii\helpers\Html;
 
 $this->title = 'theater';
 $this->params['breadcrumbs'][] = $this->title;
+
 ?>
 
 
